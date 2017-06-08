@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		798C5C441EE978ED001F990E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798C5C431EE978ED001F990E /* AppDelegate.swift */; };
+		798C5C461EE978ED001F990E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798C5C451EE978ED001F990E /* ViewController.swift */; };
+		798C5C491EE978ED001F990E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798C5C471EE978ED001F990E /* Main.storyboard */; };
+		798C5C4B1EE978ED001F990E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 798C5C4A1EE978ED001F990E /* Assets.xcassets */; };
+		798C5C4E1EE978ED001F990E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798C5C4C1EE978ED001F990E /* LaunchScreen.storyboard */; };
+		798C5C591EE978ED001F990E /* ios_tableview_swipe_actions_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798C5C581EE978ED001F990E /* ios_tableview_swipe_actions_demoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		798C5C551EE978ED001F990E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 798C5C381EE978ED001F990E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 798C5C3F1EE978ED001F990E;
+			remoteInfo = "ios-tableview-swipe-actions-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		798C5C401EE978ED001F990E /* ios-tableview-swipe-actions-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-tableview-swipe-actions-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		798C5C431EE978ED001F990E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		798C5C451EE978ED001F990E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		798C5C481EE978ED001F990E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		798C5C4A1EE978ED001F990E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		798C5C4D1EE978ED001F990E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		798C5C4F1EE978ED001F990E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		798C5C541EE978ED001F990E /* ios-tableview-swipe-actions-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-tableview-swipe-actions-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		798C5C581EE978ED001F990E /* ios_tableview_swipe_actions_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_tableview_swipe_actions_demoTests.swift; sourceTree = "<group>"; };
+		798C5C5A1EE978ED001F990E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		798C5C3D1EE978ED001F990E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798C5C511EE978ED001F990E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		798C5C371EE978ED001F990E = {
+			isa = PBXGroup;
+			children = (
+				798C5C421EE978ED001F990E /* ios-tableview-swipe-actions-demo */,
+				798C5C571EE978ED001F990E /* ios-tableview-swipe-actions-demoTests */,
+				798C5C411EE978ED001F990E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		798C5C411EE978ED001F990E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				798C5C401EE978ED001F990E /* ios-tableview-swipe-actions-demo.app */,
+				798C5C541EE978ED001F990E /* ios-tableview-swipe-actions-demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		798C5C421EE978ED001F990E /* ios-tableview-swipe-actions-demo */ = {
+			isa = PBXGroup;
+			children = (
+				798C5C431EE978ED001F990E /* AppDelegate.swift */,
+				798C5C451EE978ED001F990E /* ViewController.swift */,
+				798C5C471EE978ED001F990E /* Main.storyboard */,
+				798C5C4A1EE978ED001F990E /* Assets.xcassets */,
+				798C5C4C1EE978ED001F990E /* LaunchScreen.storyboard */,
+				798C5C4F1EE978ED001F990E /* Info.plist */,
+			);
+			path = "ios-tableview-swipe-actions-demo";
+			sourceTree = "<group>";
+		};
+		798C5C571EE978ED001F990E /* ios-tableview-swipe-actions-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				798C5C581EE978ED001F990E /* ios_tableview_swipe_actions_demoTests.swift */,
+				798C5C5A1EE978ED001F990E /* Info.plist */,
+			);
+			path = "ios-tableview-swipe-actions-demoTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		798C5C3F1EE978ED001F990E /* ios-tableview-swipe-actions-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 798C5C5D1EE978ED001F990E /* Build configuration list for PBXNativeTarget "ios-tableview-swipe-actions-demo" */;
+			buildPhases = (
+				798C5C3C1EE978ED001F990E /* Sources */,
+				798C5C3D1EE978ED001F990E /* Frameworks */,
+				798C5C3E1EE978ED001F990E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-tableview-swipe-actions-demo";
+			productName = "ios-tableview-swipe-actions-demo";
+			productReference = 798C5C401EE978ED001F990E /* ios-tableview-swipe-actions-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		798C5C531EE978ED001F990E /* ios-tableview-swipe-actions-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 798C5C601EE978ED001F990E /* Build configuration list for PBXNativeTarget "ios-tableview-swipe-actions-demoTests" */;
+			buildPhases = (
+				798C5C501EE978ED001F990E /* Sources */,
+				798C5C511EE978ED001F990E /* Frameworks */,
+				798C5C521EE978ED001F990E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				798C5C561EE978ED001F990E /* PBXTargetDependency */,
+			);
+			name = "ios-tableview-swipe-actions-demoTests";
+			productName = "ios-tableview-swipe-actions-demoTests";
+			productReference = 798C5C541EE978ED001F990E /* ios-tableview-swipe-actions-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		798C5C381EE978ED001F990E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Eiji Kushida";
+				TargetAttributes = {
+					798C5C3F1EE978ED001F990E = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					798C5C531EE978ED001F990E = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 798C5C3F1EE978ED001F990E;
+					};
+				};
+			};
+			buildConfigurationList = 798C5C3B1EE978ED001F990E /* Build configuration list for PBXProject "ios-tableview-swipe-actions-demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 798C5C371EE978ED001F990E;
+			productRefGroup = 798C5C411EE978ED001F990E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				798C5C3F1EE978ED001F990E /* ios-tableview-swipe-actions-demo */,
+				798C5C531EE978ED001F990E /* ios-tableview-swipe-actions-demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		798C5C3E1EE978ED001F990E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798C5C4E1EE978ED001F990E /* LaunchScreen.storyboard in Resources */,
+				798C5C4B1EE978ED001F990E /* Assets.xcassets in Resources */,
+				798C5C491EE978ED001F990E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798C5C521EE978ED001F990E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		798C5C3C1EE978ED001F990E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798C5C461EE978ED001F990E /* ViewController.swift in Sources */,
+				798C5C441EE978ED001F990E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798C5C501EE978ED001F990E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798C5C591EE978ED001F990E /* ios_tableview_swipe_actions_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		798C5C561EE978ED001F990E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 798C5C3F1EE978ED001F990E /* ios-tableview-swipe-actions-demo */;
+			targetProxy = 798C5C551EE978ED001F990E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		798C5C471EE978ED001F990E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				798C5C481EE978ED001F990E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		798C5C4C1EE978ED001F990E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				798C5C4D1EE978ED001F990E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		798C5C5B1EE978ED001F990E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		798C5C5C1EE978ED001F990E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		798C5C5E1EE978ED001F990E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E92X8K2SCA;
+				INFOPLIST_FILE = "ios-tableview-swipe-actions-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-tableview-swipe-actions-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		798C5C5F1EE978ED001F990E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E92X8K2SCA;
+				INFOPLIST_FILE = "ios-tableview-swipe-actions-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-tableview-swipe-actions-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		798C5C611EE978ED001F990E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ios-tableview-swipe-actions-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-tableview-swipe-actions-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-tableview-swipe-actions-demo.app/ios-tableview-swipe-actions-demo";
+			};
+			name = Debug;
+		};
+		798C5C621EE978ED001F990E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ios-tableview-swipe-actions-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-tableview-swipe-actions-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios-tableview-swipe-actions-demo.app/ios-tableview-swipe-actions-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		798C5C3B1EE978ED001F990E /* Build configuration list for PBXProject "ios-tableview-swipe-actions-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798C5C5B1EE978ED001F990E /* Debug */,
+				798C5C5C1EE978ED001F990E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		798C5C5D1EE978ED001F990E /* Build configuration list for PBXNativeTarget "ios-tableview-swipe-actions-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798C5C5E1EE978ED001F990E /* Debug */,
+				798C5C5F1EE978ED001F990E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		798C5C601EE978ED001F990E /* Build configuration list for PBXNativeTarget "ios-tableview-swipe-actions-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798C5C611EE978ED001F990E /* Debug */,
+				798C5C621EE978ED001F990E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 798C5C381EE978ED001F990E /* Project object */;
+}
